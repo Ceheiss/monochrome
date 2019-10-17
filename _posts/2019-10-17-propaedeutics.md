@@ -12,7 +12,7 @@ The apprenticeship is a unique opportunity to learn, dwell deeper in the craft o
 I decided that my first task as an apprentice would be to actually reflect on what an apprentice should do. The 'what' is clear: to learn, but the 'how' and 'why' are a bit more evasive. Luckily I found a book that might help with that. 
 
 
-## Apprenticeship Patterns
+### Apprenticeship Patterns
 
 
 Going through the HolidayCheck Apprenticeship Wiki, I came across a book called [‘Apprenticeship Patterns’](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/ch01.html). The book defines patterns as a ‘named description of a recurring solution to a problem in a given context’, and in that light it offers you several patterns. Bare in mind that this are not Design Patterns for Software, this are Design Patterns to make the best of an apprenticeship.
