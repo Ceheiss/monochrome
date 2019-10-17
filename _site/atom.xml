@@ -4,12 +4,22 @@
  <title>Monochrome | A minimal, responsive Jekyll blog theme</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2019-10-17T21:10:32+02:00</updated>
+ <updated>2019-10-17T21:29:10+02:00</updated>
  <author>
    <name>The Review Index</name>
    <uri>https://thereviewindex.com</uri>
    <email>dyutibarma@gmail.com</email>
  </author>
+
+ 
+
+ <entry>
+   <title>New first blog post</title>
+   <link href="http://localhost:4000/hello-world"/>
+   <id>http://localhost:4000/hello-world</id>
+   <updated>2019-02-10T00:00:00+01:00</updated>
+   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quasi maxime quas repudiandae nam id temporibus, at et non officiis consectetur voluptate deserunt officia minima placeat tempore illum asperiores quo assumenda praesentium? Facilis libero error ratione doloribus debitis delectus asperiores minima ab velit quam. Natus ea, vero totam recusandae autem,...</content>
+ </entry>
 
  
 
@@ -97,16 +107,6 @@
    <title>This is the third test post.</title>
    <link href="http://localhost:4000/test-post-3"/>
    <id>http://localhost:4000/test-post-3</id>
-   <updated>2017-02-11T00:00:00+01:00</updated>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
- </entry>
-
- 
-
- <entry>
-   <title>This is second test post.</title>
-   <link href="http://localhost:4000/test-post-2"/>
-   <id>http://localhost:4000/test-post-2</id>
    <updated>2017-02-11T00:00:00+01:00</updated>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate est optio ut impedit architecto iusto tempore rem, voluptates sed magni nisi corrupti praesentium voluptatum harum expedita temporibus ipsam, odit ad distinctio! Labore cupiditate distinctio facere earum, iste! Reiciendis possimus voluptatum explicabo corporis ab. Ex adipisci laudantium mollitia vel optio deserunt...</content>
  </entry>
