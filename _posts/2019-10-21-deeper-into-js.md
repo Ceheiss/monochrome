@@ -19,7 +19,7 @@ will make a shallow copied array from that list, and you will be good to go.  Ev
 
 You could also convert objects to arrays (provided the keys are numbered and the final property indicated the length of the elements present in the object, like 
 ```javascript
-{0: “first”, 1: “second, length: 2}
+{0: "first", 1: "second", length: 2}
 ```
 There is much to Array.from, but I will leave it that.
 
