@@ -14,10 +14,10 @@ Well, Array.from to the rescue. Only thing you need to do is pass your array lik
 ```javascript
 Array.from(NodeList);
 ``` 
-will make a shallow copied array from that list, and you will be good to go.  Even better, as a second argument it accepts a map function, so you can convert the NodeList into an array and modify it’s elements in one line of code.
+It will make a shallow copied array from that list, and you will be good to go.  Even better, as a second argument it accepts a map function, so you can convert the NodeList into an array and modify it’s elements in one line of code.
 
 
-You could also convert objects to arrays (provided the keys are numbered and the final property indicated the length of the elements present in the object, like 
+You could also convert objects to arrays, provided the keys are numbered and the final property indicated the length of the elements present in the object, like 
 ```javascript
 {0: "first", 1: "second", length: 2}
 ```
