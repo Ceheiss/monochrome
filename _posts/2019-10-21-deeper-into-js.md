@@ -4,7 +4,7 @@ description: Katas, Test Driven Development, and Array Functions.
 header: Deeper into JS
 ---
 
-The Kata of today was working with ['ES6 features']("https://jskatas.org"). We worked with Reflect and Array.from, in all honesty, I didn’t make too much of Reflect, in terms that its usefulness didn’t resonate with the kind of work I have done (or imagine for that matter). Array.from on the other hand seems like a very handy method.
+The Kata of today was working with ['ES6 features'](https://jskatas.org). We worked with Reflect and Array.from, in all honesty, I didn’t make too much of Reflect, in terms that its usefulness didn’t resonate with the kind of work I have done (or imagine for that matter). Array.from on the other hand seems like a very handy method.
 
 
 Imagine you are doing some DOM manipulation and you want to work with all the children of a particular element, you save them in a variable and then try to map or filter or do something, just to find out that is not working. Oh, you realize you have a NodeList, looks like an array, but not quite, you don’t have access to map, filter, and other nice things. You feel sad, you look for answers in Stackoverflow. Sadness.
