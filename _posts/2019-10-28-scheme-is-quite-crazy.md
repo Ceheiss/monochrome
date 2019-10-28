@@ -7,7 +7,7 @@ header: (Scheme (is (quite (crazy))))
 A written language is defined (roughly) by some marks, and some meaning behind those marks. In roman alphabet we assign sounds to each character, when we unite letters in specific orders we get a particular sound that is associated (hopefully) with a concept. But not all writing works like that, japanese Kanji associates the characters with concepts, not sounds, so here we have the characters for tree, woods, and forest. Is just the repetition of the concept of tree:
 
 
-![Kanji characters](]https://therisingsky.files.wordpress.com/2013/03/8ffc1-kihayashimori-tiff.jpg)
+![Kanji characters](https://therisingsky.files.wordpress.com/2013/03/8ffc1-kihayashimori-tiff.jpg)
 
 
 Interesting right?
@@ -38,7 +38,7 @@ There are some functions we can use in lists, the first introduced ones are `car
 (car (list 1 2 3))
 1
 (car (list (list 1 2 3) 4 5 6))
-‘(1 2 3)
+'(1 2 3)
 ```
 
 
