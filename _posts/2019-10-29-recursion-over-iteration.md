@@ -53,4 +53,4 @@ Going through these examples has proven to be very interesting, if I were to def
 I also found very clever the use of OR as a means of calling the recursion. Since we are interested on the value of the first expression to check membership, if it doesn’t get a truth value it runs the second one, but the second one won't stop the function just yet, because it provides a recursive call, forcing the function to go again, and again.
 
 
-I don't think I would be abl just yet to come up with beautiful recursion based solutions like the ones provided just yet, but reading them as been quite beneficial and is awakening much interest and curiosity in this programming approach.
+I don't think I would be able just yet to come up with beautiful recursion based solutions like the ones provided, but reading them has been quite beneficial and has awakening much interest and curiosity in this programming approach.
