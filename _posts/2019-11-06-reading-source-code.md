@@ -41,10 +41,10 @@ There is still a lot to learn from this repo, but beyond what each method does (
 
 
 ```javascript
-		function propertyChecker (object) {
-		   let obj = object || {};
-		   return obj.hasOwnProperty(whatever)
-}
+1. function propertyChecker (object) {
+2.  let obj = object || {};
+3.  return obj.hasOwnProperty(whatever)
+4. }
 ```
 
 
