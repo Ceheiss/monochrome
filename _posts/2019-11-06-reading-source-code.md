@@ -39,7 +39,8 @@ There is still a lot to learn from this repo, but beyond what each method does (
 
 * There is a nice “or pattern” to prevent the code from crushing if a function doesn’t receive an argument is expecting:
 
-		```javascript
+
+```javascript
 		function propertyChecker (object) {
 		   let obj = object || {};
 		   return obj.hasOwnProperty(whatever)
