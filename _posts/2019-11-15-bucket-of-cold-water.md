@@ -24,8 +24,7 @@ My anxiety being in the keyboard made me try to jump right into a problem I quit
 So I was couple of minutes in and I just blocked out, incapable of reasoning, and making crazy and unusual syntax errors. More time that passed, it got worse. I realized how little I know, how much trail I need to walk to be competent, maybe this wasn't a really good idea after all? I finally got crushed under my own pressure. 
 
 
-![This is Osgiliath, I choose to put LOTR images if it pleases me, is my blog](https://i0.wp.com/www.tor.com/wp-content/uploads/2016/06/Archt_style_Men-1-740x380.png?resize=740%2C380&type=vertical&quality=100)
-*This is Osgiliath, I choose to put LOTR images if it pleases me, is my blog*
+![This is Osgiliath, I choose to put LOTR images if it pleases me, is my blog](https://i0.wp.com/www.tor.com/wp-content/uploads/2016/06/Archt_style_Men-1-740x380.png?resize=740%2C380&type=vertical&quality=100)*This is Osgiliath, yes is a LOTR image, it's my blog*
 
 ### Aftermath
 
@@ -48,8 +47,7 @@ I created and deleted multiple times **Node** projects, get familiar with them, 
 I realized I didn't want to forget the steps to build my projects (adding scripts, how to run them, etc) so I made a [file](https://gist.github.com/Ceheiss/37cc7d21e87202722beb5cdc4840968d) as a gist with that info, and my mentor told me I could use `curl` to grab that info and copy it into my generated repo. So I did.
 
 
-![The only way of getting away with a cheesy -yet necessary- picture, is to acknowledge it yourself](https://karenberg.com/wp-content/uploads/2019/02/19-2-17-kb-kitisa-sm.jpg)
-*The only way of getting away with a cheesy -yet necessary- picture, is to acknowledge it yourself*
+![The only way of getting away with a cheesy -yet necessary- picture, is to acknowledge it yourself](https://karenberg.com/wp-content/uploads/2019/02/19-2-17-kb-kitisa-sm.jpg)*The only way of getting away with a cheesy -yet necessary- picture, is to acknowledge it yourself*
 
 ### Day after
 I asked if I  could 'drive' again the next day, with a clearer mind, and trying to tackle a problem I could understand. My social anxiety of coding live and being judge will not go away by hidding, but by trying to confront it (although in steps, not to get blocked again). I did so today, and even though I still got nervous and made some stupid mistakes (forgot to initialize the i variable in a for loop for ex, yeah, that happend), I think it was a step forward in the right direction.
