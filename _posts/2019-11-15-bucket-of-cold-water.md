@@ -25,7 +25,7 @@ So I was couple of minutes in and I just blocked out, incapable of reasoning, an
 
 
 ![This is Osgiliath, I choose to put LOTR images if it pleases me, is my blog](https://i0.wp.com/www.tor.com/wp-content/uploads/2016/06/Archt_style_Men-1-740x380.png?resize=740%2C380&type=vertical&quality=100)
-
+*This is Osgiliath, I choose to put LOTR images if it pleases me, is my blog*
 
 ### Aftermath
 
@@ -49,7 +49,7 @@ I realized I didn't want to forget the steps to build my projects (adding script
 
 
 ![The only way of getting away with a cheesy -yet necessary- picture, is to acknowledge it yourself](https://karenberg.com/wp-content/uploads/2019/02/19-2-17-kb-kitisa-sm.jpg)
-
+*The only way of getting away with a cheesy -yet necessary- picture, is to acknowledge it yourself*
 
 ### Day after
 I asked if I  could 'drive' again the next day, with a clearer mind, and trying to tackle a problem I could understand. My social anxiety of coding live and being judge will not go away by hidding, but by trying to confront it (although in steps, not to get blocked again). I did so today, and even though I still got nervous and made some stupid mistakes (forgot to initialize the i variable in a for loop for ex, yeah, that happend), I think it was a step forward in the right direction.
