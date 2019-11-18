@@ -4,21 +4,22 @@ description: What I learned on Saturday by attempting to code "Conway's Game of 
 header: Code Retreat, focus on the process
 ---
 
-Saturday morning started with my computer plugged on and surrounded by a plethora of new faces. We were there to code, but unlike most times, this time we didn’t code in order to finish a project, we were coding to focus in coding itself.
+Saturday morning started with my computer plugged on and surrounded by a plethora of new faces. We were there to write some code, but unlike most times, in this ocation we didn’t program in order to finish a project, we were coding to focus in coding itself.
 
 
-Rules were simple: pair up, try to solve “Conway’s game of life” with the constraints given (not using for loops for example), don’t finish (not an actual rule, but an extremely likely scenario), we end the session with some feedback and rinse and repeat. Oh, I forgot something, when time is up, you erase your code. No ceremony, no pushing, o saving in a file. Just like **Buddhist** monks making **mandalas** in the sand just to wipe them clean.
+Rules were simple: pair up, try to solve “Conway’s game of life” with the constraints given (not using *for-loops* for example), don’t finish (not an actual rule, but an extremely likely scenario), all sessions end with some feedback, and rinse and repeat. Oh, I forgot something, when time is up, you erase your code. No ceremony, no pushing, no saving in a file. Just like **Buddhist** monks make intricate and beautiful **mandalas** in the sand, just to wipe them clean later. Don't get attached.
 
 
-I found the concept behind the code retreat really interesting, for once the product or the end game is not the star of the show, but the activity itself (seems to be **Ying** to Hackathon’s **Yang**). The seemingly impossible mission of finishing the whole thing in one round, and the fact that all persistence gets whipped in each round, might seem to be a nightmare, an anxiety pill, like [The Myth of Sisyphus](https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus) the man condemned by the gods to roll a giant rock up a hill, only to have it sent back when reaching the summit, and start all over again. Well, that was not the case, it was actually quite liberating.
+I found the concept behind the code retreat really interesting, for once the product -or the end game- is not the star of the show, but the activity itself (seems to be **Ying** to Hackathon’s **Yang**). The seemingly impossible mission of finishing the whole thing in one go, and the fact that all remains of previous written code gets whipped in each round, might seem to be a nightmare to most, an anxiety pill, just like [The Myth of Sisyphus](https://en.wikipedia.org/wiki/The_Myth_of_Sisyphus), the man condemned by the gods to roll a giant rock up a hill, only to have it sent back when reaching the summit, and start all over again. Well, that was not the case, it was actually quite liberating.
 
 
-The realization that you aren’t going to finish anyway, helps you to focus on how will you solve this problem with your partner, the lack of remaining code forced to constantly rethink ways of solving the matter at hand without relying on past solutions or baggage (whether it was good or not). The fact that the groups always changed, also made negotiation possible, discussion of approaches, and new understandings in the matter (are you focusing on the **cell** or are you focusing on the **grid**?).
+The realization that you aren't going to finish anyway, helps you to focus on how will you solve this problem with your partner, the lack of remaining code forced to constantly rethink ways of solving the matter at hand without relying on past solutions or baggage (whether it was good or not). The fact that the groups always changed, promoted constant negotiation, discussion of approaches, and new understandings of the matter (are you focusing on the **cell** or are you focusing on the **grid**?).
 
 
-It was a great experience, and would surely do it again. I learned to not always get so attached to one previous solution I had to a problem, to let go, look form different angles to the same problem and come with new solutions. I think I could do this a hundred more times, always the “Conway’s Game of life”, and most likely my solution will continue to evolve, change, and adapt.
+It was a great experience, and would surely do it again. I learned to not always get so attached to one previous solution I had to a problem, to let go, look at the same problem from different angles, and come with new solutions. I think I could do this a hundred more times, always the “Conway’s Game of life”, and most likely my solutions will continue to evolve, change, and adapt.
 
-The focus on the journey reminded me of the poem "Ithaka" by Constantino Cavafy, if you haven't read it, and you have read so far, don't miss out on it.
+
+The focus on the journey reminded me of the poem **"Ithaka"** by **Constantino Cavafy**, if you haven't read it, and you have read so far, don't miss out on it.
 
 ### Ithaka
 ##### by C. Cavafy
