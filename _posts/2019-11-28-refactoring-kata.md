@@ -6,10 +6,13 @@ header: Tennis refactoring, the tale of a kata
 ![](https://static.wixstatic.com/media/8e2dd6_2a1c9620ffaa4c498173e1c71b84668f~mv2.jpg)
 As I previously stated, refactoring is the art of changing existing -working- code, and make it better without altering its external behaviors. As a Kata yesterday, Preetham and I worked on [this](https://github.com/emilybache/Tennis-Refactoring-Kata/blob/master/javascript/TennisGame1.js) source code, that is basically an app to keep track of tennis scores, but is written purposely bad (or not ideally) so you can refactor it. The awesome thing is that the code comes with a very exhaustive amount of tests, so you can refactor and check constantly whether you broke something or not.
  
+
 Since we didn't work on my computer, today I decided to start from scratch (very much in the fashion of Code Retreat) and refactor during the Kata. I will share what I managed to do and why, but first, let me unload to you a BIG amount of code. 
+
 
 ![](http://cdn9.dissolve.com/p/D1744_16_026/D1744_16_026_0004_600.jpg)
  
+
 ```javascript
 TennisGame1.prototype.getScore = function() {
   var score = "";
@@ -61,12 +64,16 @@ TennisGame1.prototype.getScore = function() {
   return score;
 };
 ```
+
 As Jacek told us, focus first on the **bottleneck**  when refactoring, what is urgent. As the size of the method was huge, and did a lot of different things, that was a good starting point.
+
+
+First things we noticed was the readability of the conditions, it would be great to extract what is that you are looking for, for example: `this.scorePlayer1 === this.scorePlayer2`. What you are really asking is if there is a draw, so we can store that in "isDraw". If that condition is true, you proceed to do a series of actions. What is the aim of those actions? Well, to get the scores in a drawing situation. So `"shift-command-J-M"` and extract that functionality into it's own... well... function, and call it inside the main function.
  
-First things we noticed was the readability of the conditions, it would be great to extract what is that you are looking for, for example: `this.scorePlayer1 === this.scorePlayer2`. What you are really asking is if there is a draw, so we can store that in "isDraw". If that condition is true, you proceed to do a series of actions. What is the aim of those actions? Well, to get the scores in a drawing situation. So `"shift-command-J-M"` and extract that functionality into it's own... well... function, and call it innside the main function.
- 
+
 Talking about this is a bit abstract without code, so here is the result:
  
+
 ```javascript
 TennisGame1.prototype.getDrawScore = function() {
   switch (this.scorePlayer1) {
@@ -143,7 +150,9 @@ TennisGame1.prototype.getScore = function() {
 ![](http://m.quickmeme.com/img/12/12b12a0b635a639e67f4db898c62db95b77e75b9436528800194bed9c0dfbf09.jpg)
 ### Conclusion Time
  
+
 The code is far from perfect or finished, that was not the intention, but just to make it better during the kata. If you see, the main body is much more readable: `isDraw`? then `getDrawScore` and assign it to `score`. `isWinningSituation`? then `getWinningSituation` and assign it to `score`. If none of the above is the case, `getMidGameScore` and assign it to `score`.
+ 
  
 This exercise was really interesting, besides practicing with keyboard shortcuts of my IDE to do operations like *variable and method extraction, rename variables,* and others, it showed me the value of having robust unit tests. You can make small changes, test, and continue without being scared (for example I found a variable I wasn't sure was doing anything, so I erased it, ran the tests, and everything remained green, meaning it was a good choice. Without tests, probably would have been scared to break something I'm not aware of). 
 
