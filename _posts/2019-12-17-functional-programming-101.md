@@ -9,15 +9,15 @@ In an effort to write better code, I've been looking into Functional Programming
 
 ## Immutable Data
 
-An app is composed by data, and the great difference between raw data and an app, one may argue, is that the data is presented in a consumable way, and that we can interact with the data (do things like read, add, update, and remove elements). So in order to interact with our data, there must be something that keeps track and remembers all of the changes we do to our data... keeping state (if I want my football scoreboard to add 1 each time a team scores, I need to keep track of the current amount of goals the team has scored, that is state). By the same token, Functional Programming pusshes for immutable data, that is, not changing data after is created. This is **pickle** so the first thing I will show is ways of **adding**, **updating**, and **removing** elements in arrays and objects, of course, in an immutable way.
+An app is composed by data, and the great difference between raw data and an app, one may argue, is that the data is presented in a consumable way, and that we can interact with the data (do things like read, add, update, and remove elements). So in order to interact with our data, there must be something that keeps track and remembers all of the changes we do to our data... keeping state (if I want my football scoreboard to add 1 each time a team scores, I need to keep track of the current amount of goals the team has scored, that is state). By the same token, Functional Programming pushes for immutable data, that is, not changing data after is created. This is **pickle** so the first thing I will show is ways of **adding**, **updating**, and **removing** elements in objects, of course, in an immutable way.
 
 ![](https://m.media-amazon.com/images/M/MV5BMGIyYjNhOTUtM2UxNC00MjFlLTkwZGYtNDQ0MDhmNGNkYWNlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg)
-*keeping state and immutability is a pickle, jut like Pickle Rick*
+*keeping state and immutability is a pickle, just like Pickle Rick*
 
 
 ### Objects
 
-When we save an object in a variable like this `const enchiladas = {description: 'awesome food', calories: 'quite a bit'}` and then I want another object with the same properties I might try this `const enchiladaCopy = enchiladas`. That will fail miserably,because what we save in the variable is a reference to the object in memory, so `enchiladaCopy` and `enchiladas` are pointing to the same place, they are just aliases, if I change one, the other is altered as well. What can I do? well, I could try this:
+When we save an object in a variable like this `const enchiladas = {description: 'awesome food', calories: 'quite a bit'}` and then I want another object with the same properties I might try this `const enchiladaCopy = enchiladas`. That will fail miserably, because what we save in the variable is a reference to the object in memory, so `enchiladaCopy` and `enchiladas` are pointing to the same place, they are just aliases, if I change one, the other is altered as well. What can I do? well, I could try this:
 
 
 
