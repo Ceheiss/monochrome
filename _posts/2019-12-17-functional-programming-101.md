@@ -1,7 +1,7 @@
 ---
-title: Functional Programming 101:\ Immutable Data, Objects
+title: Functional Programming 101; Immutable Data, Objects
 description: Immutable data, pure functions, and other goodies
-header: Functional Programming 101:\ Immutable Data, Objects
+header: Functional Programming 101; Immutable Data, Objects
 ---
 
 In an effort to write better code, I've been looking into Functional Programming in Javascript. Reader be warned, I'm, not talking about advance stuff (at least for me) like Monads, Functors, or Algebraic Data Types, but much simpler yet powerful practices that I think can favor my code quality, like **Immutable Data** and the use of **Pure Functions**. This blog post will focus in the first concept (specifically in objects), tomorrow arrays, and later about functions, and as I progress in my learnings I will write about other things I've been, much more timidly, exploring such as currying, partial application, and function composition.
