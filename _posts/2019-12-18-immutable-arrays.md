@@ -42,7 +42,7 @@ const originalArray = [1,2,3];
 const arrayWithNewValue = [...originalArray, 4];
 ```
 
-So we are just unpacking the elements of the array on a new one, and adding a new value. Sure, couldn't we just use `originalArray.push(4)` but that is mutating, so it's a "No No".
+So we are just unpacking the elements of the array on a new one, and adding a new value. Sure, couldn't we just use `originalArray.push(4)`? but that is mutating, so it's a "No No".
 
 
 ### Updating
@@ -75,7 +75,7 @@ const originalArray = [1,10,8,5,14,20,2,11];
 const onlyOneDigitAllowedArray = originalArray.filter(num => num < 10);
 ```
 
-With that, we should get an array like this: `[1, 8, 5, 2]`. As in map, we didn't touch `originalArray`, ffilter returns a new array, so we can delete elements without mutating anything.
+With that, we should get an array like this: `[1, 8, 5, 2]`. As in map, we didn't touch `originalArray`, filter returns a new array, so we can delete elements without mutating anything.
 
 
 ### Wrap Up
