@@ -1,7 +1,7 @@
 ---
 title: Functional Programming 101. Basic Design Pattern
 description: How do you structure your app in a way that side effects are tightly controlled?
-header: Functional Programming 101. Basic Desigm Pattern
+header: Functional Programming 101. Basic Design Pattern
 ---
 
 Having a structured way off organizing my apps has always been a struggle. I guess I had an intuition of separation of concerns, but at the end of the day it was all very messy, state was kept in different functions, there wasn't a sistematic approach for DOM manipulation and so on. Anyhow, I want to share a way of organizing an app I learned recently in my Functional Programming course.  I will start by giving an overview as I understand it, will share the code of a super exciting... counter app (as basic as it gets) shown in the course, and walk through each part. Let's get to it.
