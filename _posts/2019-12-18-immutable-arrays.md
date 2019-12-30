@@ -1,7 +1,7 @@
 ---
-title: Functional Programming 101; Immutable Data, Arrays
+title: Functional Programming 101. Immutable Data, Arrays
 description: Immutable data, this time talking about arrays
-header: Functional Programming 101; Immutable Data, Arrays
+header: Functional Programming 101. Immutable Data, Arrays
 ---
 
 Last blog post I talked about how an application is just data that is displayed in a meaningful way and that often we can interact with that data through an interface. This is relevant because in one hand we do things with the data (like **C**reating, **R**eading, **U**pdating, and **D**eleting it), but in the other, functional programming tells us not to mutate data. Last post we talked how we go about it with objects, and today we do it with arrays.

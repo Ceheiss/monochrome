@@ -1,9 +1,9 @@
 ---
-title: Functional Programming 101; What is a Pure Function?
+title: Functional Programming 101. What is a Pure Function?
 description: Don't have side effects, always returns the same output when taking the same inputs
 header: Functional Programming 101; What is a Pure Function?
 ---
-In the previous posts we have talked about how apps are data that is presented in a consumable and meaningful way, and how data should be kept **immutable** when possible. Obviously, is we are going to transform the data in some way, we need a way to do it. That way is functions, but not any functions: pure functions.
+In the previous posts we have talked about how apps are data that is presented in a consumable and meaningful way, and how data should be kept **immutable** when possible. Obviously, if we are going to transform the data, we need a way to do it. That way is functions, but not any functions: pure functions.
 
 
 **What is a pure function?** besides an apparently **pious piece of code**, a pure function is a... function that creates and returns a value based *only on the input parameters* and causes no side effects. It means that inside my function body I shouldn't depend on outside variables that could later change, and that the code causes change outside itself.
@@ -63,7 +63,7 @@ Now, don't get me wrong. If you are going to do DOM operations, you obviously wi
 I think is has been great to learn about pure functions while practicing TDD because one obvious thing you can tell is that pure functions are very easy to test. Imagine one test for `mergeArrays`:
 
 ```javascript
-test("merges to arrays into one", () => {
+test("merges two arrays into one", () => {
     const returnedResult = mergeArrays([1,2,3], [4,5,6]);
     const expectedResult = [1,2,3,4,5,6];
     expect(returnedResult).toEqual(expectedResult);
