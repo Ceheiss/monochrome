@@ -17,6 +17,7 @@ Nice, so that is it right? Well... not quite. As previously stated, it depends d
  
 This makes me think about **Rob Pike's** [article](https://research.swtch.com/vgo-eng) when he says 
 >"Software engineering is what happens to programming when you add time and other programmers."
+
 (Thanks Preetham, for the link). When working in a large scale app with different hands touching code, the environment is bigger and there are more things you have to be aware of.
  
 A project has different people working on it, you need some basic standards like linting, prettifying and others. When each contributor wants to push changes we need to make sure all of this standards are being met, that the tests are run, and everything works fine. That can get chaotic and prone to error so you might want to automate all of that building process, what is **Jenkins**?
