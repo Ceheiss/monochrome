@@ -26,10 +26,10 @@ So now for some strange reason I want to print five times the name of the sectio
 ```html
 <% include partials/header %>
 <h1>Welcome to...:</h1>
-<% for(let i=0); i < 5; i++ {
- <h2> <%= sectionName %=> </h2>
+<% for(let i=0); i < 5; i++ { %>
+ <h2> <%= sectionName =%> </h2>
 <% } %>
-<%include partials/footer%>
+<% include partials/footer %>
 ```
  
 But is **EJS**, the only way of doing this? Is it a must in a Node? Sometimes when you only use one tool you might subconsciously thinking of it as mandatory, so let's experiment with **HBS**, the Express templating engine for **Handlebars**.
@@ -59,9 +59,9 @@ So now, just like thee birds, we start looking at some patterns. In templating w
  
 Lastly we see that we might be able to add some logic. To do this, in EJS we use:
  
-```html
-<% names.forEach(name => {%>
- Hello my name is {{name}}
+```javascript
+<% names.forEach(name => { %>
+ Hello my name is <%= name =%>
 <% }); %>
 ```
  
