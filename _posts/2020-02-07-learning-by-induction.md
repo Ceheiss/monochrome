@@ -23,7 +23,7 @@ app.get("/subsection/:name", function(req, res) {
  
 So now for some strange reason I want to print five times the name of the section on `section.ejs`. Oh, and I also have some nice header and footer I want to include (as I do in all of my pages) and I end up with this:
  
-```ejs
+```html
 <% include partials/header %>
 <h1>Welcome to...:</h1>
 <% for(let i=0); i < 5; i++ {
@@ -32,7 +32,7 @@ So now for some strange reason I want to print five times the name of the sectio
 <%include partials/footer%>
 ```
  
-But is EJS, the only way of doing this? Is it a must in a Node? Sometimes when you only use one tool you might subconsciously thinking of it as mandatory, so let's experiment with **hbs**, the Express templating engine for **Handlebars**.
+But is **EJS**, the only way of doing this? Is it a must in a Node? Sometimes when you only use one tool you might subconsciously thinking of it as mandatory, so let's experiment with **HBS**, the Express templating engine for **Handlebars**.
  
 We set it like this: `app.set("view engine", "hbs");`. My route to the sections looks like this:
  
@@ -59,7 +59,7 @@ So now, just like thee birds, we start looking at some patterns. In templating w
  
 Lastly we see that we might be able to add some logic. To do this, in EJS we use:
  
-```ejs
+```html
 <% names.forEach(name => {%>
  Hello my name is {{name}}
 <% }); %>
