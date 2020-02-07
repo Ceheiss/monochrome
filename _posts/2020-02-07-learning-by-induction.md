@@ -44,14 +44,12 @@ app.get("/subsection/:name", function(req, res) {
 ```
 and my file would look like this:
  
-```handlebars
-{{>header}}
-<h1>Welcome to...:</h1>
-{{#repeater}}
- <h2>{{sectionName}}</h2>
-{{/repeater}}
-{{>footer}}
-```
+`{{>header}}`
+`<h1>Welcome to...:</h1>`
+`{{#repeater}}`
+`<h2>{{sectionName}}</h2>`
+`{{/repeater}}`
+`{{>footer}}`
  
 So now, just like thee birds, we start looking at some patterns. In templating we are given ways to inject JS into our HTML, so if we want to greet a user, but the name of the user will change, we can do `<h1> Hello <%= username =%> </h1>` or `<h1> Hello {{username}}</h1>`, so we know templating engines will provide us with a way of doing that (birds have a beak). We noticed that repeating some elements like headers and footers might be desirable, and that can be done in EJS like `<% include partials/header %>` and in Handlebars like `{{>header}}`, different ways, same outcome (birds have feathers).
 
@@ -59,19 +57,16 @@ So now, just like thee birds, we start looking at some patterns. In templating w
  
 Lastly we see that we might be able to add some logic. To do this, in EJS we use:
  
-```javascript
-<% names.forEach(name => { %>
- Hello my name is <%= name =%>
-<% }); %>
-```
+
+`<% names.forEach(name => { %>`
+` Hello my name is <%= name =%>`
+`<% }); %>`
  
 with this we can do for loops, functions, if statements and other things. In Handlebars changes a bit, you have this thing called 'helpers':
  
-```handlebars
-{{#each names}}
- Hello my name is {{name}}
-{{/each}}
-```
+`{{#each names}}`
+` Hello my name is {{name}}`
+`{{/each}}`
  
 Each is a default helper, and you have that come in the toolbox like `each` and `if`, but if you want something different, you will have to custom your own helper before using it. So here we see a difference with EJS, but at the end of the day, both engines have a way of adding some logic to the template.
  
