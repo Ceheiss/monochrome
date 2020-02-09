@@ -19,19 +19,19 @@ So I set `app.set("view engine", "ejs");` up in my `app.js` file. Then imagine I
 ```javascript
 app.get("/subsection/:name", function(req, res) {
  const sectionName = req.params.name;
- res.render("section.ejs", { sectionName: sectionName });
+ res.render("section.ejs", { sectionName });
 });
 ```
  
 So now for some strange reason I want to print five times the name of the section on `section.ejs`. Oh, and I also have some nice header and footer I want to include (as I do in all of my pages) and I end up with this:
  
 ```
-< %- include partials/header % >
+< %- include("partials/header") % >
 <h1>Welcome to...:</h1>
 < % for(let i=0); i < 5; i++ { % >
  <h2> <% = sectionName %> </h2>
 < % } % >
-< %- include partials/footer % >
+< %- include("partials/footer") % >
 ```
  
 But is **EJS**, the only way of doing this? Is it a must in a Node? Sometimes when you only use one tool you might subconsciously thinking of it as mandatory, so let's experiment with **HBS**, the Express templating engine for **Handlebars**.
@@ -41,7 +41,7 @@ We set it like this: `app.set("view engine", "hbs");`. My route to the sections 
 ```javascript
 app.get("/subsection/:name", function(req, res) {
  const sectionName = req.params.name;
- res.render("section.ejs", { sectionName: sectionName });
+ res.render("section.hbs", { sectionName });
 });
 ```
 and my file would look like this:
@@ -55,7 +55,7 @@ and my file would look like this:
 { {>footer} }
 ```
  
-So now, just like thee birds, we start looking at some patterns. In templating we are given ways to inject JS into our HTML, so if we want to greet a user, but the name of the user will change, we can do `<h1> Hello < %= username % > </h1>` or `<h1> Hello { {username} }</h1>`, so we know templating engines will provide us with a way of doing that (birds have a beak). We noticed that repeating some elements like headers and footers might be desirable, and that can be done in EJS like `< %- include partials/header % >` and in Handlebars like `{ {>header} }`, different ways, same outcome (birds have feathers).
+So now, just like the birds, we start looking at some patterns. In templating we are given ways to inject JS into our HTML, so if we want to greet a user, but the name of the user will change, we can do `<h1> Hello < %= username % > </h1>` or `<h1> Hello { {username} }</h1>`, so we know templating engines will provide us with a way of doing that (birds have a beak). We noticed that repeating some elements like headers and footers might be desirable, and that can be done in EJS like `< %- include("partials/header") % >` and in Handlebars like `{ {>header} }`, different ways, same outcome (birds have feathers).
 
 ![](https://danielmiessler.com/images/Screen-Shot-2019-11-12-at-9.38.00-PM.png) 
  
