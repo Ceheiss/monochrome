@@ -4,7 +4,7 @@ description: Forms provide a handy way of receiving information, this post is ab
 header: Using forms in the Backend
 ---
  
-I've been recently reading an HTTP book written by [K. Scott Alle](https://odetocode.com/) (great book for beginners like me) and dwelling more with the backend, so I figured I should write something quickly on how to use forms in a backend application.
+I've been recently reading an HTTP book written by [K. Scott Allen](https://odetocode.com/) (great book for beginners like me) and dwelling more with the backend, so I figured I should write something quickly on how to use forms in a backend application.
  
 To say I'm a stranger to forms would be false, I've  written them (like this cool [ninja form](https://codepen.io/ceheiss/pen/PxKXjo)) but never really thought about consuming the information that was sent, nor did the **action** or **method** attributes defined on top where meant anything. My focus was building them in a responsive way that looked good.
  
