@@ -79,7 +79,7 @@ render() {
 
 Cool everything ready, so I deployed to Heroku here [https://lotr-random-quote.herokuapp.com/](https://lotr-random-quote.herokuapp.com/) and tried and... it failed. Crap. So what was wrong? Well, after a lot of looking, and head banging (remember I'm a backend noob) I was managed to address the problem. So basically it was a CORS (Cross-Origin Resource Sharing) issue. Since I wanted my API to be independent (not part of the React app, but capable of being used by anyone), it is it's own independent project, so basically when getting a request from my React app, my server freaked out and didn't share his information. I had to go back to my server and add a little something.
 
-## Cors and DoS
+## Cors and DDoS
 
 I added the `cors` package and then with this middleware `app.use(cors({optionSuccessStatus: 200}));` made my API available for the public for requests. Yahoo, itt works! Great, that is it right? That is what I thought, I showed this to Gabriel, one of my mentors, and he told me that is preferable to set specifically from which hosts will my server respond (so I could add my React app as safe, and be done). But that was also a problem, that the reason I did this independently to begin with, is so other people can also use the API for something (_maybe learn how to use Fetch with a simple, keyless, and friendly API?_). "You are open to DoS attack he said", so I had to think about something else.
 

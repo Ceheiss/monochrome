@@ -56,7 +56,7 @@ Post means we want to provide data to a server, a common case is to create a use
  <input type="submit">
 </form>
 ```
-So in the service side I will have access through the body of the request to the input values (in the GET we access them through the url). So I have something like `firstName=Gandalf&lastName=TheGrey`. I can handle that:
+So in the service side I will have access through the body of the request to the input values (in the GET we access them through the url). So I have something like `firstName=Gandalf&lastName=TheGrey` in the body of the response. I can handle that:
  
 ```javascript
 app.post('/users', (req, res) => {
